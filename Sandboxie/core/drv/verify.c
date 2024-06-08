@@ -222,7 +222,7 @@ NTSTATUS KphVerifySignature(
     _In_ ULONG SignatureSize
     )
 {
-    return STATUS_SUCCESS
+    return STATUS_SUCCESS;
 }
 
 NTSTATUS KphVerifyFile(
